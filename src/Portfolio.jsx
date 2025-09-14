@@ -121,6 +121,9 @@ export default function Portfolio() {
       <div className="min-h-screen bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors">
         <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-900/60 border-b border-black/5 dark:border-white/10">
           <nav className={`${section} flex items-center justify-between py-3`}>
+            <a href="#home" className="font-semibold tracking-tight text-lg">
+              Portfolio
+            </a>
                        <div className="flex items-center gap-2">
               <a
                 href="#projects"
